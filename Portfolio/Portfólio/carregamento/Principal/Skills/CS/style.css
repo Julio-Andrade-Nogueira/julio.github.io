@@ -1,0 +1,316 @@
+* {
+
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    overflow-x: hidden;
+    transition: background-color 2.5s ease;
+    background-color: #030507;
+
+}
+
+#home {
+
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#back {
+
+    cursor: pointer;
+
+}
+
+::-webkit-scrollbar {
+
+    background-color: rgba(0, 255, 255, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: rgb(59, 59, 59);
+    border-radius: 1vw;
+
+}
+
+#Skill {
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#C2B3A3 ;
+    font-family: 'Lexend';
+    font-size: 1.7vw;
+
+}
+
+p {
+
+    padding-top: 2vw;
+
+}
+
+h1 {
+
+    font-family: 'Cascadia Code',sans-serif;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    font-size: 3.5vw;
+
+}
+
+#Projetos {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 20vw;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+
+}
+
+#projeto1{
+
+    background-image: linear-gradient(
+    rgba(255, 255, 255, 0), 
+    rgb(0, 0, 0)
+  ),url(/Portfólio/imagens/calculadora.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10vw;
+    width: 20vw;
+    height: 10vw;
+    transition: box-shadow 0.4s ease;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items:flex-end;
+    cursor: pointer;
+
+}
+
+
+
+#projeto2{
+
+    width: 20vw;
+    height: 10vw;
+    border-radius: 2vw;
+    background-color: brown;
+
+}
+
+#projeto3{
+
+
+    margin-right: 10vw;
+    width: 20vw;
+    height: 10vw;
+    border-radius: 2vw;
+    background-color: brown;
+
+}
+
+.titulos {
+
+    font-family: 'Lexend',sans-serif;
+    color: #fff;
+    user-select: none;
+    padding-left: 1.5vw;
+
+}
+
+#calcPop {
+
+    transition: opacity 0.7s ease,  z-index 0.5s ease;
+    background-color: #2a2e31;
+    margin-left: 25vw;
+    margin-top: 2.5vw;
+    width: 50vw;
+    background-size: 20vw;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    height: 47vw;
+    justify-content: top;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 2vw;
+    position: absolute;
+}
+
+
+.bg {
+    
+
+    transition: opacity 0.7s ease, z-index 0.4s ease;
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+    width: 99.1vw;
+    height: 55vw;
+    background-color: #00000078;
+
+}
+
+.texto {
+
+    font-family: 'Lexend',sans-serif;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    color: #C2B3A3;
+
+}
+
+.desc {
+
+    font-size: 1.3vw;
+
+}
+
+.img{
+
+    left: 20vw;
+    bottom: 9vw;
+    cursor: pointer;
+    position: absolute;
+    width: 10vw;
+
+}
+
+#modal {
+
+    transition: opacity 0.7s ease, z-index 0.4s ease;
+    width: 20vw;
+    height: 5vw;
+    left: 40vw;
+    opacity: -1;
+    z-index: -1;
+    top: 2.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vw;
+    border-radius: 1vw;
+    z-index: 3;
+    text-align: center;
+    position: absolute;
+    background-color: #373838;
+
+}
+
+#csharp {
+
+    width: 8vw;
+
+}
+
+#textoM {
+
+    font-size: 1vw;
+    color: #C2B3A3;
+    font-family: 'Lexend',sans-serif;
+
+}
+
+.botao {
+
+
+    width: 4.5vw;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vw;
+    border-radius: 1vw;
+
+}
+
+#botoes {
+
+    width: 70%;
+    justify-content: space-around;
+    align-items:center;
+    display: flex;
+    height: 70%;
+
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.btnText {
+
+    padding: 0;
+    font-size: 1vw;
+    color: #030507;
+
+}
+
+#fechar {
+
+    cursor: pointer;
+    margin-top: 0.6vw;
+    margin-left: 47vw;
+    position: absolute;
+    width: 2vw;
+
+}
+
+#ul {
+
+
+    padding-top: 1.5vw;
+
+}
+
+#tituloEst {
+
+font-size: 1.4vw;
+
+
+}
+
+#textoEst {
+
+    text-align: center;
+    font-size: 1.2vw;
+    padding-top: 2vw;
+
+}
+
+#claro {
+
+    position: absolute;
+    width: 5vw;
+    top: 1vw;
+    left: 1vw;   
+    cursor: pointer;
+    
+
+}

@@ -1,0 +1,140 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background-color:  #030507;
+    transition: background-color 2.5s ease;
+
+}
+
+#texto {
+
+    font-family: 'Lexend';
+    font-size: 5vw;
+    width: 50%;
+    letter-spacing: 0.35vw;
+    color: #C2B3A3;
+    transition: color 1.5s ease;
+
+}
+
+#divTexto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+
+}
+#imagens {
+
+
+    margin-top: 2vw;
+    height: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#skills {
+
+    width: 17.29vw;
+    height: 27.054vw;
+    margin-left: 13.5vw;
+    transition: width 0.4s ease, height 0.4s ease;
+
+}
+
+
+
+#sobreMim {
+
+
+    width: 21.29vw;
+    height: 27.054vw;
+    transition: width 0.4s ease, height 0.4s ease;
+
+}
+
+
+
+::-webkit-scrollbar {
+
+    background-color: rgba(0, 255, 255, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: rgb(59, 59, 59);
+    border-radius: 1vw;
+
+}
+
+
+
+#contato {
+
+    margin-right: 13.5vw;
+    width: 17.29vw;
+    height: 27.054vw;
+    transition: width 0.4s ease, height 0.4s ease;
+
+}
+
+
+
+#claro {    
+
+    top: 1vw;
+    left: 1vw;      
+    width: 5vw;
+    position: absolute;
+    cursor: pointer;
+
+
+}
+
+#skillsH {
+
+    left: 9.5vw;
+    top: 10vw;
+    display: flex;
+    align-items: top;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.7s ease, visibility 0.7s ease;
+    position: absolute;
+    width: 25vw;
+    border: 0.2vw solid white;
+    height: 9vw;
+    background-color: rgb(41, 41, 41);
+
+}
+
+#textoS {
+
+    color: #C2B3A3;
+    font-family: 'Lexend',sans-serif;
+    font-size: 1.4vw;
+    user-select: none;
+
+}
+
+
+
+
+
+
+

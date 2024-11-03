@@ -1,0 +1,58 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    background-image: url(/Portfólio/imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+#text {
+
+    position: absolute;
+    margin-left: 40vw;
+    width: 60%;
+    padding-bottom: 3vw;
+    user-select: none;
+    font-family: 'Lexend',sans-serif;
+    color: #C2B3A3;
+    font-size: 7vw;
+}
+
+span {
+
+    color: rgba(0, 0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

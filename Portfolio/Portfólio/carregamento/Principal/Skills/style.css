@@ -1,0 +1,183 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #030507;
+    transition: background-color 2.5s ease;
+
+}
+
+#home {
+
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#back {
+
+    width: 3vw;
+    cursor: pointer;
+
+}
+
+#icones {
+
+    padding-top: 5vw;
+    padding-left: 15vw;
+    display: flex;
+    padding-right: 15vw;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#cS {
+
+    width: 9vw;
+
+}
+
+#h5 {
+
+    width: 8vw;
+
+}
+
+#js {
+
+    width: 8vw;
+
+}
+
+#skills {
+
+    margin-top: 13.5vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#hard {
+
+    height: 25vw;
+    width: 30vw;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10%;
+    background-color:#383a3b;
+    transition: background-color 1.5s ease;
+
+}
+
+#soft {
+
+    height: 25vw;
+    width: 30vw;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10%;
+    background-color:#383a3b;
+    transition: background-color 1.5s ease;
+
+}
+
+
+#hTitle {
+
+    font-family: 'Lexend',sans-serif;
+    color: #C2B3A3;
+    font-size: 3vw;
+    transition: color 1.5s ease;
+
+
+}
+
+#ulHard {
+
+
+    line-height: 2.5vw;
+    font-family: 'Lexend',sans-serif;
+    font-size: 1.5vw;
+    color: #C2B3A3;
+    transition: color 1.5s ease;
+
+}
+
+#sTitle {
+
+    font-family: 'Lexend',sans-serif;
+    color: #C2B3A3;
+    font-size: 3vw;
+    transition: color 1.5s ease;
+
+}
+
+#ulSoft {
+
+    top: 39vw;
+    left: 62vw;
+    line-height: 2.5vw;
+    position: absolute;
+    font-family: 'Lexend',sans-serif;
+    font-size: 1.5vw;
+    color: #C2B3A3;
+    transition: color 1.5s ease;
+
+}
+
+#claro {
+
+    position: absolute;
+    width: 5vw;
+    top: 1vw;
+    left: 1vw;   
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+
+    background-color: rgba(0, 255, 255, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: rgb(59, 59, 59);
+    border-radius: 1vw;
+
+}
+
+#espaco {
+
+    padding-bottom: 15vw;
+
+}
+

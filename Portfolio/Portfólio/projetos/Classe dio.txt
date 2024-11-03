@@ -1,0 +1,53 @@
+console.log("Selecione umas das classes : ")
+console.log("Guerreiro,Mago,Monge,Ninja")
+let classe = String(prompt(""))
+if (classe==="Guerreiro") {
+    console.log("A classe guerreiro foi selecionada. |Atributos : Vida +30% ; Ataque -5% ; Velocidade -30%")
+}else if (classe==="Mago"){
+    console.log("A classe Mago foi selecionada. |Atributos : Vida -23% ; Ataque +40% ; Defesa -20%")    
+}else if (classe==="Monge"){
+    console.log("A classe Monge foi selecionada. |Atributos : Vida +20% ; Ataque -10% ; Defesa +15%")
+}else if (classe==="Ninja"){
+    console.log("A classe Ninja foi selecionada. |Atributos : Vida -30% ; Ataque +25% ; Velocidade +28%")
+}
+if (classe==="Guerreiro"){
+    var ataque = "o "+classe+" atacou usando espada"
+}else if (classe==="Mago"){
+    ataque = "o "+classe+" atacou usando magia"
+}else if (classe==="Monge"){
+    ataque = "o "+classe+" ataca usando os punhos"
+}else if (classe==="Ninja"){
+    ataque = "o "+classe+" atacou usando uma katana"
+}
+
+
+console.log("Inimigo se aproximando... Ações disponiveis :")
+console.log("")
+console.log("+________________+")
+console.log("| Atacar | Fugir |")
+console.log("+________________+")
+let action = String(prompt(""))
+if (action==="Atacar") {
+    console.log(ataque + ", derrotando seu oponente !")
+    console.log("Execução terminada ! :D")
+} else if (action==="Fugir") {
+console.log("💀 bro it's just an interaction 💀")
+
+
+console.log("Inimigo se aproximando... Ações disponiveis :")
+console.log("")
+console.log("+________________+")
+console.log("| Atacar | XXXXX |")
+console.log("+________________+")
+
+
+
+
+while (action!="Atacar") {
+    let action= String(prompt())
+    if (action==="Atacar") {
+        console.log(ataque + ", derrotando seu oponente !")
+        console.log("Execução terminada ! :D (ooooo potência)")
+    }
+}
+}
